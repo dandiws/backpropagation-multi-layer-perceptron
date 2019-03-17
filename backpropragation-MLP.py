@@ -263,7 +263,7 @@ for row in iris:
 
 
 dataset= shuffle(dataset,balance=True)
-train_set,validation_set = dataset_split(dataset,0.7)
+train_set,validation_set = dataset_split(dataset,0.6)
 
 input_number = 4
 hidden_number = 3
